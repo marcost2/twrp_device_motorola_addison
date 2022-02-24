@@ -35,6 +35,8 @@ TARGET_NO_BOOTLOADER := true
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
+TARGET_CRYPTFS_HW_PATH =: vendor/qcom/opensource/commonsys/cryptfs_hw
+TARGET_USES_METADATA_AS_FDE_KEY := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8953
